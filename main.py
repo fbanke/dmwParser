@@ -1,3 +1,13 @@
+# comments
+# der er meget lidt opdeling i koden, det er en lang funktion stort set.
+# det gør det svært at se hvor afgrænsningen mellem forskellig functionalitet starter og stopper
+# 
+# der er ingen test cases så det vil være svært at være 100% sikker på at alt stadig virker som det skal hvis der laves ændringer.
+#
+# navngivningen af variabler er ikke specielt informerende, fx dmw_dict, event, element, key, value er super generiske navne 
+# og siger ikke noget om forretnings logikken bag det data der gemmes i dem.
+# 
+
 from lxml import etree
 from sqlitedict import SqliteDict
 import os
